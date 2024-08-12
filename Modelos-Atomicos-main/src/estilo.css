@@ -40,7 +40,12 @@ h1 {
     font-size: 72px;
     margin-top: 25px;
 }
-
+ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0; 
+}
 ul {
     list-style: none;
     display: flex;
@@ -48,7 +53,8 @@ ul {
     padding: 0;
 }
 li {
-    align-self: center;  
+    align-self: center;
+    color: white;  
 }
 
 li a {
