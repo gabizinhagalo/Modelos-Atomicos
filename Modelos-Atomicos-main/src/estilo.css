@@ -229,3 +229,13 @@ footer {
         top: -65px;
     }
 }
+.thomson-image{
+    max-width:30%;  
+    padding: 5%;
+    border-radius:20%;
+    margin-right: 60%;
+}
+
+.eletron-image{
+    max-width:60%;  
+}
