@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: black;
     margin: 0;
@@ -64,21 +66,6 @@ ol, ul {
     font-size: 18px;
 }
 
-@media all and (max-width: 768px) {
-    .menu ul {
-        flex-direction: column;
-    }
-
-    .menu li {
-        margin: 10px 0;
-        border-bottom: 1px solid white;
-        padding: 10px 0;
-    }
-
-    .menu li:last-child {
-        border-bottom: none;
-    }
-}
 
 .container {
     display: flex;
@@ -111,11 +98,19 @@ ol, ul {
     font-size: 52px;
 }
 
+.left iframe {
+    width: 1100px;
+    height: 550px;
+}
+
 .right .atomo-image {
     max-width: 100%;
     height: auto;
     object-fit: contain;
     margin: 20px auto;
+    scale: 70%;
+    position: relative;
+    top: -90px;
 }
 
 p {
@@ -178,6 +173,7 @@ footer {
 @media all and (max-width: 768px) {
     header {
         padding: 20px 0;
+        
     }
 
     .container {
@@ -198,6 +194,7 @@ footer {
         max-width: 100%;
         width: auto;
         height: auto;
+
     }
 
     footer {
@@ -220,15 +217,22 @@ footer {
     li a {
         font-size: 16px;
     }
-}
+    .menu ul {
+        flex-direction: column;
+    }
 
-@media all and (max-width: 1200px) {
-    .circle {
-        scale: 80%;
-        position: relative;
-        top: -65px;
+    .menu li {
+        margin: 10px 0;
+        border-bottom: 1px solid white;
+        padding: 10px 0;
+    }
+
+    .menu li:last-child {
+        border-bottom: none;
     }
 }
+
+
 .thomson-image{
     max-width:30%;  
     padding: 5%;
